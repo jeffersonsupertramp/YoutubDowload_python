@@ -18,6 +18,7 @@ def videod(url, page):
     
     except Exception as e:
         #print(f"Error downloading video: {e}")
+        #testando
          dlg = ft.AlertDialog(
          title=ft.Text(ft.Text("Error downloading video. Please check the URL and try again.")))
          page.open(dlg)
